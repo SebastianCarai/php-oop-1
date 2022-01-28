@@ -37,10 +37,10 @@ var_dump($avengers);
 
 <!-- La vita è bella -->
 <?php
-$la_vita_è_bella = new Movie('La vita è bella', 1997);
-$la_vita_è_bella->genre = 'storico';
-$la_vita_è_bella->duration = '124 minutes';
-$la_vita_è_bella->cast = ['Roberto Benigni', 'Nicoletta Braschi', 'Giorgio Cantarini', 'Marisa Paredes'];
-var_dump($la_vita_è_bella)
+$la_vita_e_bella = new Movie('La vita è bella', 1997);
+$la_vita_e_bella->genre = 'storico';
+$la_vita_e_bella->duration = '124 minutes';
+$la_vita_e_bella->cast = ['Roberto Benigni', 'Nicoletta Braschi', 'Giorgio Cantarini', 'Marisa Paredes'];
+var_dump($la_vita_e_bella)
 ?>
-<div> <?php echo $la_vita_è_bella->yearsFromRelease($la_vita_è_bella->release_year) ?> </div>
+<div> <?php echo $la_vita_e_bella->yearsFromRelease($la_vita_e_bella->release_year) ?> </div>
